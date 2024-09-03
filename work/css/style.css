@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 /* work */
-.base{
-  width:100%;
-  padding:60px 0;
-  background:#cff1ff;
-     }
+  .base{
+   width:100%;
+   padding:60px 0;
+   background:#cff1ff;
+   }
    
- .inner{
+  .inner{
    margin:0 auto;
    width:600px;
    }
@@ -18,14 +18,13 @@
    text-align: center;
    }
    
-   .form_title{
+  .form_title{
    text-align:center;
    font-size: 24px;
-   
    }
      
-   .content_title{
-     font-size: 18px;
+  .content_title{
+  font-size: 18px;
      color: #000000;
      }
    
