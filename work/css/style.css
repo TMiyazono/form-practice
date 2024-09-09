@@ -123,6 +123,19 @@
       border: 1px solid #d9d9d9;
       background: #ffffff;
     }
+
+    input, select, button {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      border: none;
+      outline: none;
+      padding: 0px;
+  }
    
-    
+  .subscribe_element {
+    position: relative;
+    padding-left: 25px;
+}   
   
