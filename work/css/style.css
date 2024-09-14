@@ -68,7 +68,7 @@
       margin-top: 50px;
     } 
     
-  .subscribe_content{
+  .subscription_content{
       margin-top: 50px;
     } 
     
@@ -84,12 +84,20 @@
     width:100%;
     }
   
-   .gender_section{
+   .gender_section,.select_area{
     width:100%;
     margin-bottom:30px;
     margin-top: 6px;
     }
-    
+
+   .gender_element:first-child {
+    margin-left: 0;
+    } 
+
+   .gender_element {
+      margin-left: 10px;
+    }
+
   .gender_element span:before {
    content: "";
    position: absolute;
@@ -124,7 +132,7 @@
 
 
   .submit_section{
-    margin-top:30px;
+    margin-top:50px;
     }
     
   .btn{
