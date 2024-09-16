@@ -85,9 +85,20 @@
     }
   
    .gender_section,.select_area{
-    width:100%;
-    margin-bottom:30px;
     margin-top: 6px;
+    }
+   
+    .select_unit:after {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      right: 10px;
+      top: 45%;
+      display: inline-block;
+      border-bottom: 2px solid #c3c3c3;
+      border-right: 2px solid #c3c3c3;
+      transform: rotate(45deg);
     }
 
    .gender_element:first-child {
